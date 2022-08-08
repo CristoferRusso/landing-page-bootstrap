@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: rgb(56, 185, 236);">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">MyApp</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="inedx.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cards">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#main">Download</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index2.html">The App</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row d-flex" id="jumbo">
+            <div class="col-12 bg">
+                <div>
+                    <h1>My Awesome App!</h1>
+                    <h2>This is why You should donwload this Fantastic App!</h2>
+                </div>
+                <form class="row g-3" id="submit">
+                    <div class="col-auto">
+                      <label for="exampleFormControlInput1" class="visually-hidden">Email</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" style="background-color: rgba(135, 207, 235, 0.463);">
+                    </div>
+                    <div class="col-auto">
+                      <label for="inputPassword2" class="visually-hidden">Password</label>
+                      <input type="password" class="form-control" id="inputPassword2" placeholder="Password" style="background-color: rgba(135, 207, 235, 0.463)">
+                    </div>
+                    <div class="col-auto">
+                      <button type="submit" class="btn btn-primary mb-3" style="background-color: rgba(135, 207, 235, 0.463)">Confirm identity</button>
+                    </div>
+                  </form>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="text">
+        <h1>Why this App is Awesome!?</h1>
+        <h2>Summary, once again, of your app's awesomeness </h2>
+    </div>
+    <div id="cards" class="container-fluid3">
+        <div class="row1 align-items-center h-100 ">
+            <div class="col-sm mx-auto"></div>
+            <div class="card text-bg-primary ustify-content-center" style="width: 25rem">
+                <img src="https://images.unsplash.com/photo-1547119957-637f8679db1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Technological development.</p>
+                    <a href="index2.html" class="btn btn-info">Info</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row1  align-items-center h-100 ">
+            <div class="col-sm mx-auto"></div>
+            <div class="card text-bg-primary ustify-content-center" style="width: 25rem">
+                <img src="https://images.unsplash.com/photo-1547658718-1cdaa0852790?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Marketing development.</p>
+                    <a href="index2.html" class="btn btn-info">Info</a>
+                </div>
+            </div>
+        </div>
+        <div class="row1   align-items-center h-100 ">
+            <div class="col-sm-6 mx-auto"></div>
+            <div class="card text-bg-primary ustify-content-center" style="width: 25rem">
+                <img src="https://images.unsplash.com/photo-1535341000823-01aa350a4fbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Accessibility.</p>
+                    <a href="index2.html" class="btn btn-info">Info</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid1 align-items-center justify-center">
+        <div id="main">
+            <a href="https://play.google.com/store/games?hl=it&gl=US">
+            <img src="images/google.png" id="google">
+        </a>
+            <div id="text-down">
+                <h1>Download the app!</h1>
+                <h2>Really, why shoud i download this app?? </h2>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>

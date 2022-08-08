@@ -1,0 +1,71 @@
+
+#jumbo .bg{
+    background-image: url(images/img5.jpg);
+    height: 600px;
+    background-size: cover;
+    background-color: black;
+}
+
+#jumbo h1{
+    color: rgba(217, 230, 241, 0.333);
+    margin-top: 70px;
+}
+
+#jumbo h2{
+    font-size: 20px;
+    color: rgba(217, 230, 241, 0.527);
+}
+#submit{
+    margin-top: 10%;
+    margin-left: 40%;
+    
+}
+#text{
+    margin-left: 35%;
+    color:  rgb(56, 185, 236);
+}
+.row1{
+  
+    margin: 50px;
+    float: left;
+}
+.container-fluid1{
+    background-color:  rgb(56, 185, 236);
+    height: 400px;
+    margin-top: 2200px;
+    width: 100%;
+   
+}
+#text-down{
+    padding-top: 30px;
+    
+}
+#google{
+   
+   width: 30%;
+   padding-top: 80px;
+}
+
+.container-fluid1 h1{
+    color: rgba(217, 230, 241, 0.61);
+}
+.container-fluid1 h2{
+    color: rgba(217, 230, 241, 0.61);
+}
+#main{
+    margin-left:40%;
+}
+#cards{
+    margin-left: 10%;
+}
+
+.card-text{
+    color: antiquewhite;
+}
+#text-index2{
+    font-size: 30px;
+    margin-top: 100px;
+    color: rgb(51, 170, 218);
+    width: 50%;
+
+}
